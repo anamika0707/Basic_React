@@ -68,7 +68,7 @@ const App=()=>{
     <div>
       <div className='p-10'>
         {users.map(function(elem,idx){
-          return <Cards key={idx} username={elem.name} age={elem.age} prof={elem.profession} city={elem.city} photu={elem.photo}
+          return <Cards key={idx} username={elem.name} age={elem.age} prof={elem.profession} city={elem.city} photu={elem.photo}/>
         })}
       </div>
     </div>
